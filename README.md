@@ -1,70 +1,195 @@
-# Getting Started with Create React App
+# Diana Torres - Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive portfolio website showcasing my expertise as a Biotechnology Engineer & Data Analyst. Built with React, Bootstrap, and modern web technologies.
 
-## Available Scripts
+## 🌟 Features
 
-In the project directory, you can run:
+### **Professional Sections**
+- **Hero Section** - Introduction with resume download
+- **About Section** - Skills overview with interactive icons
+- **Skills Section** - Comprehensive technical and professional skills
+- **Projects Section** - Featured projects with images and technologies
+- **Contact Section** - Contact form and social links
 
-### `npm start`
+### **Key Features**
+- 📱 **Fully Responsive** - Works perfectly on all devices
+- 🎨 **Modern Design** - Clean, professional UI with smooth animations
+- ⚡ **Fast Performance** - Optimized React components
+- 🔍 **SEO Optimized** - Meta tags and proper structure
+- 📊 **Interactive Elements** - Hover effects and smooth transitions
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### **Frontend**
+- **React 18** - Modern React with hooks and functional components
+- **Bootstrap 5** - Responsive CSS framework
+- **React Icons** - Beautiful icon library
+- **React Helmet** - SEO and meta tag management
 
-### `npm test`
+### **Styling**
+- **CSS3** - Custom styling with CSS variables
+- **Bootstrap Components** - Cards, navigation, forms
+- **Responsive Design** - Mobile-first approach
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### **Development Tools**
+- **Create React App** - Development environment
+- **Git** - Version control
+- **GitHub Pages** - Deployment ready
 
-### `npm run build`
+## 📁 Project Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+my-portfolio/
+├── public/
+│   ├── assets/
+│   │   ├── images/
+│   │   │   └── projects/          # Project screenshots
+│   │   └── resume/
+│   │       └── resumeDT.pdf       # Resume file
+│   ├── index.html
+│   ├── manifest.json
+│   └── portfolio-icon.svg
+├── src/
+│   ├── components/
+│   │   ├── About.js              # About section with skills icons
+│   │   ├── Contact.js            # Contact form and social links
+│   │   ├── Footer.js             # Footer component
+│   │   ├── Hero.js               # Hero section with CTA
+│   │   ├── Navbar.js             # Navigation bar
+│   │   ├── Projects.js           # Projects showcase
+│   │   └── Skills.js             # Skills section
+│   ├── styles/
+│   │   ├── About.css
+│   │   ├── Contact.css
+│   │   ├── Footer.css
+│   │   ├── Hero.css
+│   │   ├── Navbar.css
+│   │   ├── Projects.css
+│   │   └── Skills.css
+│   ├── App.js                    # Main application component
+│   ├── App.css                   # Global styles
+│   └── index.js                  # Application entry point
+├── package.json
+└── README.md
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### **Prerequisites**
+- Node.js (version 14 or higher)
+- npm or yarn package manager
 
-### `npm run eject`
+### **Installation**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/dianadeliz/my-portfolio.git
+   cd my-portfolio
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. **Start the development server**
+   ```bash
+   npm start
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. **Open your browser**
+   Navigate to `http://localhost:3000` to view the portfolio
 
-## Learn More
+### **Building for Production**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm run build
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This creates a `build` folder with optimized production files.
 
-### Code Splitting
+## 📊 Featured Projects
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### **1. Bike Share Usage Analysis**
+- **Category:** Data Analysis
+- **Technologies:** R, Tableau, Data Visualization
+- **Description:** Comprehensive analysis of Divvy bike-share usage patterns
+- **GitHub:** [Bike Analysis Repository](https://github.com/dianadeliz/bike-analysis)
 
-### Analyzing the Bundle Size
+### **2. Six Sigma Improvement Plan - ArcelorMittal Oxygen Plant**
+- **Category:** Process Improvement
+- **Technologies:** Python, Six Sigma, Statistical Analysis
+- **Description:** Statistical process control and Gage R&R studies
+- **GitHub:** [Six Sigma Repository](https://github.com/dianadeliz/Improvement-Plan-with-Six-Sigma-in-the-ArcelorMittal-Oxygen-Plant-Mexico)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### **3. Discussion Board Web Application**
+- **Category:** Web Development
+- **Technologies:** React, Spring Boot, MongoDB, Bootstrap
+- **Description:** Full-stack discussion board with JWT authentication
+- **GitHub:** [Discussion Board Repository](https://github.com/dianadeliz/CSD230Lab2)
 
-### Making a Progressive Web App
+## 🎯 Skills Showcased
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### **Technical Skills**
+- **Programming Languages:** Python, SQL, R, MATLAB
+- **Data Analysis:** Statistical Analysis, Data Visualization, Data Processing
+- **Tools & Technologies:** Git, Docker, AWS, Linux, LaTeX, Microsoft Office
+- **Databases:** SQL Server, PostgreSQL, MySQL, MongoDB
 
-### Advanced Configuration
+### **Professional Skills**
+- **Research & Analysis:** Data Analysis, Laboratory Research, Biotechnology
+- **Management & Strategy:** Project Management (PDCA & DMAIC), Critical Thinking, Process Improvement
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🎨 Customization
 
-### Deployment
+### **Personal Information**
+Update the following files to customize the portfolio:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- **Hero Section:** `src/components/Hero.js`
+- **About Section:** `src/components/About.js`
+- **Skills:** `src/components/Skills.js`
+- **Projects:** `src/components/Projects.js`
+- **Contact:** `src/components/Contact.js`
 
-### `npm run build` fails to minify
+### **Styling**
+- **Colors:** Update CSS variables in `src/App.css`
+- **Fonts:** Modify font imports in `src/App.css`
+- **Layout:** Customize component styles in respective CSS files
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### **Images**
+- **Profile/Background:** Replace images in `src/assets/images/`
+- **Project Screenshots:** Add images to `public/assets/images/projects/`
+- **Icons:** Update favicon in `public/` directory
+
+## 📱 Responsive Design
+
+The portfolio is fully responsive and optimized for:
+- 📱 Mobile devices (320px+)
+- 📱 Tablets (768px+)
+- 💻 Desktop computers (1024px+)
+- 🖥️ Large screens (1200px+)
+
+## 🔧 Available Scripts
+
+- `npm start` - Runs the app in development mode
+- `npm test` - Launches the test runner
+- `npm run build` - Builds the app for production
+- `npm run eject` - Ejects from Create React App (not recommended)
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📞 Contact
+
+- **Email:** dianaelizabeth_work@hotmail.com
+- **LinkedIn:** [Diana Torres](https://linkedin.com/in/torres-diana)
+- **GitHub:** [dianadeliz](https://github.com/dianadeliz)
+
+---
+
+**Built with ❤️ using React and Bootstrap**
