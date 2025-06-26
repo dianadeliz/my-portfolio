@@ -1,0 +1,130 @@
+.about-section {
+  background-color: var(--light-gray);
+  position: relative;
+}
+
+.skills-icons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1.5rem;
+  background: var(--light-gray);
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.icon-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.skill-icon {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.icon-container span {
+  color: var(--secondary-color);
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.framework-text {
+  color: var(--dark-gray);
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.about-card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  transition: transform 0.3s ease;
+}
+
+.about-card:hover {
+  transform: translateY(-5px);
+}
+
+.about-card h3 {
+  color: var(--secondary-color);
+  font-size: 1.8rem;
+}
+
+.about-card p {
+  color: var(--dark-gray);
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.skills-highlight {
+  background-color: var(--light-gray);
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+
+.skills-highlight h4 {
+  color: var(--secondary-color);
+  font-size: 1.4rem;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skills-list li {
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.skills-list li:before {
+  content: '•';
+  color: var(--primary-color);
+  position: absolute;
+  left: 0;
+  font-size: 1.2rem;
+}
+
+.skills-list li:last-child {
+  margin-bottom: 0;
+}
+
+.skills-list strong {
+  color: var(--secondary-color);
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+@media (max-width: 991px) {
+  .skills-icons {
+    margin-bottom: 2rem;
+  }
+  
+  .about-card {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .skills-icons {
+    grid-template-columns: 1fr;
+  }
+} 
