@@ -4,21 +4,9 @@ import '../styles/Hero.css';
 
 const Hero = () => {
   const handleResumeDownload = () => {
-    // Resume file path - opens PDF in new window
+    // Resume file path - opens PDF in new tab
     const pdfUrl = '/assets/resume/dataAnalyst_DT.pdf';
-    const newWindow = window.open(pdfUrl, '_blank', 'noopener,noreferrer');
-    
-    // Fallback if popup is blocked
-    if (!newWindow || newWindow.closed || typeof newWindow.closed === 'undefined') {
-      // Create a temporary link and click it
-      const link = document.createElement('a');
-      link.href = pdfUrl;
-      link.target = '_blank';
-      link.rel = 'noopener noreferrer';
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-    }
+    window.open(pdfUrl, '_blank');
   };
 
   return (
@@ -44,7 +32,7 @@ const Hero = () => {
               className="resume-btn"
               onClick={handleResumeDownload}
             >
-              Download Resume
+              View Resume
             </Button>
           </Col>
         </Row>
