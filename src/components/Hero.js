@@ -5,17 +5,10 @@ import '../styles/Hero.css';
 const Hero = () => {
   const handleResumeDownload = () => {
     // Resume file path - opens PDF in new tab
-    const pdfUrl = '/assets/resume/dataAnalyst_DT.pdf';
+    const pdfUrl = `${window.location.origin}/assets/resume/dataAnalyst_DT.pdf`;
     
-    // Create a temporary link element to ensure proper handling
-    const link = document.createElement('a');
-    link.href = pdfUrl;
-    link.target = '_blank';
-    link.rel = 'noopener noreferrer';
-    link.download = 'Diana_Torres_Resume.pdf'; // Optional: suggest filename
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    // Open PDF in new tab
+    window.open(pdfUrl, '_blank');
   };
 
   return (
