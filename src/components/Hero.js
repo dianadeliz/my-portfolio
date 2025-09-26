@@ -5,7 +5,7 @@ import '../styles/Hero.css';
 const Hero = () => {
   const handleResumeDownload = () => {
     // Resume file path - opens PDF in new tab
-    const pdfUrl = `${window.location.origin}/assets/resume/dataAnalyst_DT.pdf`;
+    const pdfUrl = `${window.location.origin}/assets/resume/IT-DT-resume.pdf`;
     
     // Open PDF in new tab
     window.open(pdfUrl, '_blank');
