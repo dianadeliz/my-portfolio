@@ -5,7 +5,7 @@ import '../styles/Hero.css';
 const Hero = () => {
   const handleResumeDownload = () => {
     // Resume file path
-    window.open('/assets/resume/resumeDT.pdf', '_blank');
+    window.open('/assets/resume/dataAnalyst_DT.docx', '_blank');
   };
 
   return (
